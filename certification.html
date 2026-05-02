@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Certification</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Port<span>folio.</span></a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="certification.html" class="active">Certification</a>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="certification">
+        <h2 class="section-title fade-in">Licenses & <span>Certifications</span></h2>
+        
+        <div class="cert-grid fade-in">
+            <!-- Certification Card -->
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3>Professional Certification</h3>
+                <p style="color: var(--text-secondary); margin: 10px 0 20px;">Issued by Credentialing Authority</p>
+                <a href="certificate.pdf" target="_blank" class="btn">View Certificate</a>
+            </div>
+
+            <!-- Placeholder for future certifications -->
+            <div class="cert-card" style="border-style: dashed; opacity: 0.6;">
+                <div class="cert-icon">
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+                <h3>More Coming Soon</h3>
+                <p style="color: var(--text-secondary); margin: 10px 0 20px;">Continuous Learning</p>
+                <button class="btn btn-outline" disabled>Future Addition</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
