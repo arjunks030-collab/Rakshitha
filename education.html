@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Education</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
     <header>
         <a href="index.html" class="logo">Port<span>folio.</span></a>
         <nav class="nav-links">
@@ -18,35 +23,36 @@
             <a href="projects.html">Projects</a>
             <a href="education.html" class="active">Education</a>
             <a href="certification.html">Certification</a>
+            <a href="contact.html">Contact</a>
         </nav>
         <div class="hamburger">
             <i class="fas fa-bars"></i>
         </div>
     </header>
 
-    <section id="education">
+    <section id="education" class="page-section">
         <h2 class="section-title fade-in">My <span>Education</span></h2>
         
         <div class="timeline fade-in">
             <!-- Timeline Item 1 -->
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">2021 - Present</div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">2021 - Present</span>
                     <h3>Bachelor's Degree</h3>
-                    <p>University Name</p>
-                    <p style="margin-top: 10px; font-size: 0.95rem;">Focusing on core principles, practical applications, and advanced theoretical concepts in my field.</p>
+                    <h4>University Name</h4>
+                    <p>Focusing on core principles, practical applications, and advanced theoretical concepts in my field.</p>
                 </div>
             </div>
 
             <!-- Timeline Item 2 -->
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">2019 - 2021</div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">2019 - 2021</span>
                     <h3>High School / Pre-University</h3>
-                    <p>College Name</p>
-                    <p style="margin-top: 10px; font-size: 0.95rem;">Graduated with distinction. Actively participated in technical and cultural clubs.</p>
+                    <h4>College Name</h4>
+                    <p>Graduated with distinction. Actively participated in technical and cultural clubs.</p>
                 </div>
             </div>
         </div>

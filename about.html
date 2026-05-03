@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | About</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
     <header>
         <a href="index.html" class="logo">Port<span>folio.</span></a>
         <nav class="nav-links">
@@ -18,32 +23,35 @@
             <a href="projects.html">Projects</a>
             <a href="education.html">Education</a>
             <a href="certification.html">Certification</a>
+            <a href="contact.html">Contact</a>
         </nav>
         <div class="hamburger">
             <i class="fas fa-bars"></i>
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="page-section">
         <h2 class="section-title fade-in">About <span>Me</span></h2>
         
         <div class="about-content">
-            <div class="about-text fade-in">
+            <div class="about-text glass-card fade-in">
                 <h2>I'm a Passionate Professional</h2>
                 <p>Hello! I am a highly motivated individual with a strong foundation in my field. I enjoy tackling complex problems, learning new technologies, and continuously improving my skills. My goal is to build impactful solutions that make a difference.</p>
                 <p>When I'm not working, I love exploring new design trends, reading, and engaging in creative activities.</p>
                 
-                <h3 style="margin-top: 2rem; color: var(--text-primary);">My Skills</h3>
-                <div class="skills-grid">
-                    <div class="skill-tag">Web Design</div>
-                    <div class="skill-tag">Development</div>
-                    <div class="skill-tag">UI/UX</div>
-                    <div class="skill-tag">Problem Solving</div>
-                    <div class="skill-tag">Communication</div>
+                <div class="skills-container">
+                    <h3>My Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-tag"><i class="fas fa-palette"></i> Web Design</div>
+                        <div class="skill-tag"><i class="fas fa-code"></i> Development</div>
+                        <div class="skill-tag"><i class="fas fa-desktop"></i> UI/UX</div>
+                        <div class="skill-tag"><i class="fas fa-lightbulb"></i> Problem Solving</div>
+                        <div class="skill-tag"><i class="fas fa-comments"></i> Communication</div>
+                    </div>
                 </div>
 
                 <div style="margin-top: 3rem;">
-                    <a href="resume - Copy.pdf" download class="btn">Download Resume <i class="fas fa-download" style="margin-left: 8px;"></i></a>
+                    <a href="resume - Copy.pdf" target="_blank" class="btn">View Resume <i class="fas fa-file-alt" style="margin-left: 8px;"></i></a>
                 </div>
             </div>
         </div>

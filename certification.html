@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Certification</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
     <header>
         <a href="index.html" class="logo">Port<span>folio.</span></a>
         <nav class="nav-links">
@@ -18,34 +23,34 @@
             <a href="projects.html">Projects</a>
             <a href="education.html">Education</a>
             <a href="certification.html" class="active">Certification</a>
+            <a href="contact.html">Contact</a>
         </nav>
         <div class="hamburger">
             <i class="fas fa-bars"></i>
         </div>
     </header>
 
-    <section id="certification">
+    <section id="certification" class="page-section">
         <h2 class="section-title fade-in">Licenses & <span>Certifications</span></h2>
         
         <div class="cert-grid fade-in">
             <!-- Certification Card -->
-            <div class="cert-card">
+            <div class="cert-card glass-card">
                 <div class="cert-icon">
                     <i class="fas fa-award"></i>
                 </div>
                 <h3>Professional Certification</h3>
-                <p style="color: var(--text-secondary); margin: 10px 0 20px;">Issued by Credentialing Authority</p>
-                <a href="certificate.pdf" target="_blank" class="btn">View Certificate</a>
+                <p>Issued by Credentialing Authority</p>
+                <a href="certificate.pdf" target="_blank" class="btn">View Certificate <i class="fas fa-external-link-alt" style="margin-left: 8px;"></i></a>
             </div>
 
             <!-- Placeholder for future certifications -->
-            <div class="cert-card" style="border-style: dashed; opacity: 0.6;">
-                <div class="cert-icon">
-                    <i class="fas fa-plus-circle"></i>
+            <div class="cert-card glass-card" style="border: 2px dashed rgba(255,255,255,0.2); background: transparent;">
+                <div class="cert-icon" style="background: transparent; color: var(--text-secondary); border: 2px dashed rgba(255,255,255,0.1);">
+                    <i class="fas fa-plus"></i>
                 </div>
                 <h3>More Coming Soon</h3>
-                <p style="color: var(--text-secondary); margin: 10px 0 20px;">Continuous Learning</p>
-                <button class="btn btn-outline" disabled>Future Addition</button>
+                <p>Continuous Learning & Development</p>
             </div>
         </div>
     </section>

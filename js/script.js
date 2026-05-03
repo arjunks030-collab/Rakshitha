@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Header Scroll Effect
+  const header = document.querySelector('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+
   // Active Link Highlighting based on current URL
   const currentPath = window.location.pathname.split('/').pop() || 'index.html';
   const navItems = document.querySelectorAll('.nav-links a');
